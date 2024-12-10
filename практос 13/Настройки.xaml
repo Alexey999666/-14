@@ -1,0 +1,21 @@
+﻿<Window x:Class="практос_13.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:практос_13"
+        mc:Ignorable="d"
+        Title="Настройки" Height="450" Width="600" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid Background="Black">
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Количество строк" Foreground="Aquamarine"/>
+            <TextBox x:Name="tbRowst" Background="Aquamarine"/>
+            <TextBlock Text="Количество столбцов" Foreground="Aquamarine"/>
+            <TextBox x:Name="tbColumnst" Background="Aquamarine"/>
+            <TextBlock Text="Диапозон" Foreground="Aquamarine"/>
+            <TextBox x:Name="tbRangest" Background="Aquamarine"/>
+            <Button Content="Настроить" Click="btnSavest_Click"  Background="Black" Foreground="Aquamarine" BorderBrush="Blue"/>
+        </StackPanel>
+    </Grid>
+</Window>

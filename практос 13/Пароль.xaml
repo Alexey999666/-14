@@ -1,0 +1,17 @@
+﻿<Window x:Class="практос_13.Pasword"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:практос_13"
+        mc:Ignorable="d"
+        Title="Пароль" Height="200" Width="200" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Введите пароль" TextWrapping="Wrap" TextAlignment="Center" Foreground="Aquamarine"  />
+            <PasswordBox x:Name="pasword"  Background="Aquamarine" BorderBrush="Black"/>
+            <Button Content="Ввести" Click="tbnPasword_Click" Background="Black" Foreground="Aquamarine" BorderBrush="Blue"/>
+            <Button Content="Закрыть" Click="tbnExit_Click" Background="Black" Foreground="Aquamarine" BorderBrush="Blue"/>
+        </StackPanel>
+    </Grid>
+</Window>
